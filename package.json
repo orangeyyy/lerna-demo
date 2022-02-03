@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "@apple/pkg2-demo": "file:packages/pkg2",
+    "apple-demo-pkg1": "file:packages/pkg1"
+  }
+}
