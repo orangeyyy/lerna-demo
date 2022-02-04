@@ -1,6 +1,6 @@
 {
   "name": "apple-demo-pkg3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "keywords": [
     "demo"
@@ -9,8 +9,7 @@
   "homepage": "https://github.com/orangeyyy/lerna-demo#readme",
   "license": "MIT",
   "main": "index.js",
-  "directories": {
-  },
+  "directories": {},
   "files": [
     "lib"
   ],
