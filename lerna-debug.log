@@ -1,4 +1,5 @@
-44 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
-44 error fatal: unable to access 'https://github.com/orangeyyy/lerna-demo.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
-44 error     at makeError (/Users/orangexxx/github/lerna-demo/node_modules/execa/lib/error.js:60:11)
-44 error     at handlePromise (/Users/orangexxx/github/lerna-demo/node_modules/execa/index.js:118:26)
+44 error Error: Command failed: git push --follow-tags --no-verify --atomic origin main
+44 error fatal: unable to access 'https://github.com/orangeyyy/lerna-demo.git/': Failed to connect to github.com port 443: Operation timed out
+44 error
+44 error     at makeError (/Users/orangexxx/github/lerna-demo/node_modules/_execa@1.0.0@execa/index.js:174:9)
+44 error     at /Users/orangexxx/github/lerna-demo/node_modules/_execa@1.0.0@execa/index.js:278:16
