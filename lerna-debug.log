@@ -1,12 +1,5 @@
-15 error Error: Command failed: git remote update
-15 error fatal: unable to access 'https://github.com/orangeyyy/lerna-demo.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
-15 error error: Could not fetch origin
-15 error
-15 error Fetching origin
-15 error
-15 error     at makeError (/Users/orangexxx/github/lerna-demo/node_modules/_execa@1.0.0@execa/index.js:174:9)
-15 error     at Function.module.exports.sync (/Users/orangexxx/github/lerna-demo/node_modules/_execa@1.0.0@execa/index.js:338:15)
-15 error     at Object.execSync (/Users/orangexxx/github/lerna-demo/node_modules/_@lerna_child-process@3.16.5@@lerna/child-process/index.js:26:16)
-15 error     at updateRemote (/Users/orangexxx/github/lerna-demo/node_modules/_@lerna_version@3.22.1@@lerna/version/lib/is-behind-upstream.js:26:16)
-15 error     at isBehindUpstream (/Users/orangexxx/github/lerna-demo/node_modules/_@lerna_version@3.22.1@@lerna/version/lib/is-behind-upstream.js:11:3)
-15 error     at VersionCommand.initialize (/Users/orangexxx/github/lerna-demo/node_modules/_@lerna_version@3.22.1@@lerna/version/index.js:154:9)
+51 error Error: Command failed: git push --follow-tags --no-verify --atomic origin main
+51 error fatal: unable to access 'https://github.com/orangeyyy/lerna-demo.git/': Failed to connect to github.com port 443: Operation timed out
+51 error
+51 error     at makeError (/Users/orangexxx/github/lerna-demo/node_modules/_execa@1.0.0@execa/index.js:174:9)
+51 error     at /Users/orangexxx/github/lerna-demo/node_modules/_execa@1.0.0@execa/index.js:278:16
